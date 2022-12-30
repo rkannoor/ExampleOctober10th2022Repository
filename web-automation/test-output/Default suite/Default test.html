@@ -1,0 +1,259 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>36/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Dec 28 15:49:12 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>309 seconds (309594 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testngassignments.xmlassignments3.user3login()'><b>user3login</b><br>Test class: testngassignments.xmlassignments3</td>
+<td></td>
+<td>7</td>
+<td>testngassignments.xmlassignments3@63a12c68</td></tr>
+<tr>
+<td title='testngassignments.xmlassignments3.user2logout()'><b>user2logout</b><br>Test class: testngassignments.xmlassignments3</td>
+<td></td>
+<td>2</td>
+<td>testngassignments.xmlassignments3@63a12c68</td></tr>
+<tr>
+<td title='testngassignments.xmlassignments3.loginasadmin2ndtime()'><b>loginasadmin2ndtime</b><br>Test class: testngassignments.xmlassignments3</td>
+<td></td>
+<td>3</td>
+<td>testngassignments.xmlassignments3@63a12c68</td></tr>
+<tr>
+<td title='testngassignments.xmlassignments3.modifyuser1password()'><b>modifyuser1password</b><br>Test class: testngassignments.xmlassignments3</td>
+<td></td>
+<td>16</td>
+<td>testngassignments.xmlassignments3@63a12c68</td></tr>
+<tr>
+<td title='testngassignments.xmlassignments3.user1login2()'><b>user1login2</b><br>Test class: testngassignments.xmlassignments3</td>
+<td></td>
+<td>5</td>
+<td>testngassignments.xmlassignments3@63a12c68</td></tr>
+<tr>
+<td title='testngassignments.xmlassignments3.loginasuser3usingnewpassword()'><b>loginasuser3usingnewpassword</b><br>Test class: testngassignments.xmlassignments3</td>
+<td></td>
+<td>10</td>
+<td>testngassignments.xmlassignments3@63a12c68</td></tr>
+<tr>
+<td title='testngassignments.xmlassignments3.loginasuser2usingnewpassword()'><b>loginasuser2usingnewpassword</b><br>Test class: testngassignments.xmlassignments3</td>
+<td></td>
+<td>10</td>
+<td>testngassignments.xmlassignments3@63a12c68</td></tr>
+<tr>
+<td title='testngassignments.xmlassignments3.user2login()'><b>user2login</b><br>Test class: testngassignments.xmlassignments3</td>
+<td></td>
+<td>7</td>
+<td>testngassignments.xmlassignments3@63a12c68</td></tr>
+<tr>
+<td title='testngassignments.xmlassignments3.login()'><b>login</b><br>Test class: testngassignments.xmlassignments3</td>
+<td></td>
+<td>5</td>
+<td>testngassignments.xmlassignments3@63a12c68</td></tr>
+<tr>
+<td title='testngassignments.xmlassignments3.user1login()'><b>user1login</b><br>Test class: testngassignments.xmlassignments3</td>
+<td></td>
+<td>8</td>
+<td>testngassignments.xmlassignments3@63a12c68</td></tr>
+<tr>
+<td title='testngassignments.xmlassignments3.logiiuser1usingnewpassword()'><b>logiiuser1usingnewpassword</b><br>Test class: testngassignments.xmlassignments3</td>
+<td></td>
+<td>10</td>
+<td>testngassignments.xmlassignments3@63a12c68</td></tr>
+<tr>
+<td title='testngassignments.xmlassignments3.ModifyPasswordodUseronetwothree2ndtime()'><b>ModifyPasswordodUseronetwothree2ndtime</b><br>Test class: testngassignments.xmlassignments3</td>
+<td></td>
+<td>39</td>
+<td>testngassignments.xmlassignments3@63a12c68</td></tr>
+<tr>
+<td title='testngassignments.xmlassignments3.deleteuser1()'><b>deleteuser1</b><br>Test class: testngassignments.xmlassignments3</td>
+<td></td>
+<td>21</td>
+<td>testngassignments.xmlassignments3@63a12c68</td></tr>
+<tr>
+<td title='testngassignments.xmlassignments3.logoutlast()'><b>logoutlast</b><br>Test class: testngassignments.xmlassignments3</td>
+<td></td>
+<td>5</td>
+<td>testngassignments.xmlassignments3@63a12c68</td></tr>
+<tr>
+<td title='testngassignments.xmlassignments3.navigation()'><b>navigation</b><br>Test class: testngassignments.xmlassignments3</td>
+<td></td>
+<td>9</td>
+<td>testngassignments.xmlassignments3@63a12c68</td></tr>
+<tr>
+<td title='testngassignments.xmlassignments3.logoutasuser2()'><b>logoutasuser2</b><br>Test class: testngassignments.xmlassignments3</td>
+<td></td>
+<td>2</td>
+<td>testngassignments.xmlassignments3@63a12c68</td></tr>
+<tr>
+<td title='testngassignments.xmlassignments3.modifyuser2password()'><b>modifyuser2password</b><br>Test class: testngassignments.xmlassignments3</td>
+<td></td>
+<td>15</td>
+<td>testngassignments.xmlassignments3@63a12c68</td></tr>
+<tr>
+<td title='testngassignments.xmlassignments3.user3logout()'><b>user3logout</b><br>Test class: testngassignments.xmlassignments3</td>
+<td></td>
+<td>2</td>
+<td>testngassignments.xmlassignments3@63a12c68</td></tr>
+<tr>
+<td title='testngassignments.xmlassignments3.logoutasuser1()'><b>logoutasuser1</b><br>Test class: testngassignments.xmlassignments3</td>
+<td></td>
+<td>2</td>
+<td>testngassignments.xmlassignments3@63a12c68</td></tr>
+<tr>
+<td title='testngassignments.xmlassignments3.modifyuser3password()'><b>modifyuser3password</b><br>Test class: testngassignments.xmlassignments3</td>
+<td></td>
+<td>15</td>
+<td>testngassignments.xmlassignments3@63a12c68</td></tr>
+<tr>
+<td title='testngassignments.xmlassignments3.logoutasuser3()'><b>logoutasuser3</b><br>Test class: testngassignments.xmlassignments3</td>
+<td></td>
+<td>2</td>
+<td>testngassignments.xmlassignments3@63a12c68</td></tr>
+<tr>
+<td title='testngassignments.xmlassignments3.logoutasuser2afterloginwithnewpassword()'><b>logoutasuser2afterloginwithnewpassword</b><br>Test class: testngassignments.xmlassignments3</td>
+<td></td>
+<td>2</td>
+<td>testngassignments.xmlassignments3@63a12c68</td></tr>
+<tr>
+<td title='testngassignments.xmlassignments3.user2login2()'><b>user2login2</b><br>Test class: testngassignments.xmlassignments3</td>
+<td></td>
+<td>10</td>
+<td>testngassignments.xmlassignments3@63a12c68</td></tr>
+<tr>
+<td title='testngassignments.xmlassignments3.loginlogoutofUSERS()'><b>loginlogoutofUSERS</b><br>Test class: testngassignments.xmlassignments3</td>
+<td></td>
+<td>10</td>
+<td>testngassignments.xmlassignments3@63a12c68</td></tr>
+<tr>
+<td title='testngassignments.xmlassignments3.loginasadminlasttime()'><b>loginasadminlasttime</b><br>Test class: testngassignments.xmlassignments3</td>
+<td></td>
+<td>3</td>
+<td>testngassignments.xmlassignments3@63a12c68</td></tr>
+<tr>
+<td title='testngassignments.xmlassignments3.logout()'><b>logout</b><br>Test class: testngassignments.xmlassignments3</td>
+<td></td>
+<td>2</td>
+<td>testngassignments.xmlassignments3@63a12c68</td></tr>
+<tr>
+<td title='testngassignments.xmlassignments3.user2()'><b>user2</b><br>Test class: testngassignments.xmlassignments3</td>
+<td></td>
+<td>10</td>
+<td>testngassignments.xmlassignments3@63a12c68</td></tr>
+<tr>
+<td title='testngassignments.xmlassignments3.logoutasuser3afterloginwithnewpassword()'><b>logoutasuser3afterloginwithnewpassword</b><br>Test class: testngassignments.xmlassignments3</td>
+<td></td>
+<td>2</td>
+<td>testngassignments.xmlassignments3@63a12c68</td></tr>
+<tr>
+<td title='testngassignments.xmlassignments3.user3()'><b>user3</b><br>Test class: testngassignments.xmlassignments3</td>
+<td></td>
+<td>15</td>
+<td>testngassignments.xmlassignments3@63a12c68</td></tr>
+<tr>
+<td title='testngassignments.xmlassignments3.user3login2()'><b>user3login2</b><br>Test class: testngassignments.xmlassignments3</td>
+<td></td>
+<td>10</td>
+<td>testngassignments.xmlassignments3@63a12c68</td></tr>
+<tr>
+<td title='testngassignments.xmlassignments3.user1()'><b>user1</b><br>Test class: testngassignments.xmlassignments3</td>
+<td></td>
+<td>23</td>
+<td>testngassignments.xmlassignments3@63a12c68</td></tr>
+<tr>
+<td title='testngassignments.xmlassignments3.launch()'><b>launch</b><br>Test class: testngassignments.xmlassignments3</td>
+<td></td>
+<td>3</td>
+<td>testngassignments.xmlassignments3@63a12c68</td></tr>
+<tr>
+<td title='testngassignments.xmlassignments3.logoutasuser1afterloginwithnewpassword()'><b>logoutasuser1afterloginwithnewpassword</b><br>Test class: testngassignments.xmlassignments3</td>
+<td></td>
+<td>2</td>
+<td>testngassignments.xmlassignments3@63a12c68</td></tr>
+<tr>
+<td title='testngassignments.xmlassignments3.closeapplication()'><b>closeapplication</b><br>Test class: testngassignments.xmlassignments3</td>
+<td></td>
+<td>2</td>
+<td>testngassignments.xmlassignments3@63a12c68</td></tr>
+<tr>
+<td title='testngassignments.xmlassignments3.minimize()'><b>minimize</b><br>Test class: testngassignments.xmlassignments3</td>
+<td></td>
+<td>4</td>
+<td>testngassignments.xmlassignments3@63a12c68</td></tr>
+<tr>
+<td title='testngassignments.xmlassignments3.user1logout()'><b>user1logout</b><br>Test class: testngassignments.xmlassignments3</td>
+<td></td>
+<td>2</td>
+<td>testngassignments.xmlassignments3@63a12c68</td></tr>
+</table><p>
+</body>
+</html>

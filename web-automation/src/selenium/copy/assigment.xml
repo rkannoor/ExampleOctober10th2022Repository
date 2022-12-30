@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="assignments">
+   <test name="all assignments">
+   		<classes>
+   		    <class name="testngassignments.xmlassignment1"></class>
+   		     <class name="testngassignments.xmlassignment2"></class>
+   		      <class name="testngassignments.xmlassignments3"></class>
+   		       <class name="testngassignments.xmlassignment4"></class>
+   		        <class name="testngassignments.xmlassignments5"></class>
+   		         <class name="testngassignments.xmlassignments6"></class>
+   		          <class name="testngassignments.xmlassignments7"></class>
+   		           <class name="testngassignments.xmlassignments8"></class>
+   		            <class name="testngassignments.xmlassignments8"></class>
+   			
+   		</classes>
+   </test>
+</suite>
